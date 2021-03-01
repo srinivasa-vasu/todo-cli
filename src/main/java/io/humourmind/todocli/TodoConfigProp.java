@@ -1,9 +1,9 @@
 package io.humourmind.todocli;
 
-import lombok.Getter;
-
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.boot.context.properties.ConstructorBinding;
+
+import lombok.Getter;
 
 @ConfigurationProperties(prefix = "service")
 @ConstructorBinding
